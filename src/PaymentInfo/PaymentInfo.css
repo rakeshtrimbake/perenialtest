@@ -1,0 +1,35 @@
+.paymentinfo{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        height: 50%;
+        display: inline-block;
+        transform: translateY(-50%);
+        top: 50%;
+        padding-top:30px ;
+        margin: 0 auto;
+        color: rgb(11, 107, 7);
+        right: 320px;
+        font-weight: 700;
+        background: rgb(160, 160, 167);
+}
+
+@media (max-width:500px){
+    .paymentinfo{
+        display: flex;
+        width: 100%;
+        font-size: 30px;
+        color: black;
+        top: 50%;
+        padding-top:30px;
+        color: rgb(11, 107, 7);
+        font-weight: 700;
+        right:0px;
+        background: rgb(177, 177, 185);
+    }
+   
+}
